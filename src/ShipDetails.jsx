@@ -87,7 +87,7 @@ const ShipDetails = () => {
         {/* Simulating Thermal View */}
         <div className="thermal-container">
           <video className="thermal-video w-full rounded shadow-md" controls>
-            <source src="/path-to-your-video/satellite-monitoring.mp4" type="video/mp4" />
+            <source src="" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

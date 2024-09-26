@@ -4,7 +4,7 @@ import { Line } from "react-chartjs-2";
 import { Chart as ChartJS, LineElement, CategoryScale, LinearScale, PointElement, Title, Tooltip, Legend } from "chart.js";
 import { Link } from "react-router-dom"; // Import Link for navigation
 import AnomalyDetectionGraph from './AnomalyDetectionGraph'; // Assuming you have this component created
-import ShipDetails from './ShipDetails'; // Import the new component
+import ShipDetails from './ship-details'; // Import the new component
 
 ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement, Title, Tooltip, Legend);
 

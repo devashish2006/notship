@@ -106,7 +106,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/satellite-images" element={<SatelliteImages />} />
             <Route path="/live-monitoring" element={<LiveMonitoring />} />
-            <Route path="/ship-details" element={<ShipDetails />} />
+            {/* <Route path="/ship-details" element={<ShipDetails />} /> */}
             <Route path="/ShipDamageModel" element={<ShipDamageModel />} />
             <Route path="/damaged-ships" element={<DamageShipList />} />
             <Route path="/ship-model" element={<ShipDetails />} />
